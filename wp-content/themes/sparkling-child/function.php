@@ -34,4 +34,3 @@ function mn_load_theme_style()
     wp_enqueue_style('child-styles', get_stylesheet_directory_uri() . '/style.css', array('parent-styles'));
 }
 add_action('wp_enqueue_scripts', 'mn_load_theme_style', 15);
-
