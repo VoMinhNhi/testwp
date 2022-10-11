@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: TP Customize Admin Screen
+ * Plugin Name: Minh Nhí Plugin
  * Plugin URI: https://thachpham.com
  * Description: Thay đổi các thành phần của trang login
  * Version: 1.0
