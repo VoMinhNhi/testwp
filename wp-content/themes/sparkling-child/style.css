@@ -1,13 +1,164 @@
 /**
- Theme Name: Sparkling Child
- Version: 1
+ Theme Name: Theme mới nhất
  Description: Theme for simple shop tutorial
  Author: Minh Nhí
  Author URI: https://thachpham.com
  Template: sparkling
  */
 
- h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: Helvetica,Arial,sans-serif;
-    font-weight: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    color: blue;
 }
+
+/**
+ * Trang hiển thị chi tiết sản phẩm
+ */
+.entry-header {
+    display: block;
+    overflow: auto;
+}
+
+.entry-header .left {
+    float: left;
+    margin-right: 1em;
+    width: 53%;
+}
+
+.entry-header .right {
+    float: right;
+    width: 42%;
+}
+
+.entry-price {
+    font-weight: bold;
+    color: #1dad1d;
+    font-size: 1.6em;
+}
+
+.sanpham_att_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.sanpham_att_table td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.sanpham_att_table th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.sanpham_att_table .sanpham_att_table_row {
+    vertical-align: top
+}
+
+.nf-modal-link {
+    background-color: #DA4453;
+    border-color: #DA4453;
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #f3f3f3;
+}
+
+/**
+ * CSS hiển thị trang lưu trữ sản phẩm theo dạng lưới
+ */
+ .post-type-archive-sanpham .main-content-inner,
+ .tax-sanpham_cat .main-content-inner,
+ .home .main-content-inner{
+ }
+ .post-type-archive-sanpham .main-content-inner .odd,
+ .tax-sanpham_cat .main-content-inner .odd,
+ .home .main-content-inner .odd{
+     width: 48.5%;
+     float: left;
+ }
+ .post-type-archive-sanpham .main-content-inner .even,
+ .tax-sanpham_cat .main-content-inner .even,
+ .home .main-content-inner .even{
+     width: 49.5%;
+     float: right;
+ }
+ .post-type-archive-sanpham .main-content-inner .even:after,
+ .tax-sanpham_cat .main-content-inner .even:after,
+ .home .main-content-inner .even:after{
+     display: table;
+     clear: both;
+     content: "";
+ }
+ .paging-navigation {
+     overflow: auto;
+     width: 100%;
+ }
+ .post-type-archive-sanpham .main-content-inner .hentry,
+ .tax-sanpham_cat .main-content-inner .hentry,
+ .home .main-content-inner .hentry {
+     background: #fff;
+     margin-bottom: 1em;
+ 
+ 
+ }
+ .post-type-archive-sanpham .blog-item-wrap,
+ .tax-sanpham_cat .blog-item-wrap,
+ .home .blog-item-wrap{
+     margin-bottom: 0;
+ }
+ .post-type-archive-sanpham .post-inner-content,
+ .tax-sanpham_cat .post-inner-content,
+ .home .post-inner-content{
+     border: none !important;
+ }
+ .post-type-archive-sanpham .post-inner-content .entry-title,
+ .tax-sanpham_cat .post-inner-content .entry-title,
+ .home .post-inner-content .entry-title {
+     font-size: 21px;
+     margin-bottom: 15px;
+ }

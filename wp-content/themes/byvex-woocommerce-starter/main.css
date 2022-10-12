@@ -1,0 +1,15 @@
+.entry-content figure {
+    max-width: 100%;
+}
+
+.si {
+    display: inline-block;
+    height: 1.1em;
+    width: 1.1em;
+    vertical-align: middle;
+    position: relative;
+    top: -0.0625em;
+    text-align: center;
+    stroke-width: 0;
+    overflow: visible;
+}
